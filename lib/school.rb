@@ -10,7 +10,7 @@ class School
   end
 
   def sort
-    roster.sort
+    roster.values.sort
   end
 
   def add_student(student, grade)
