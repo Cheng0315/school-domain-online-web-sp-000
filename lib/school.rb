@@ -1,5 +1,5 @@
 class School
-  new = []
+  NEW = []
   def initialize(name)
     @name = name
   end
