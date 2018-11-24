@@ -12,7 +12,7 @@ class School
 
   def add_student(student, grade)
     if @roster.size = 0
-      @roster{grade} = [student]
+      @roster[grade] = [student]
     end
 
 end
