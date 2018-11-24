@@ -11,7 +11,7 @@ class School
   end
 
   def add_student(student, grade)
-    if @roster.size == 0
+    if @roster == {}
       @roster[grade] = [student]
     end
   end
