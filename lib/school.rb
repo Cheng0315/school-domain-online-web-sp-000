@@ -14,5 +14,5 @@ class School
     if @roster= {}
       @roster[grade] = [student]
     end
-
+  end
 end
