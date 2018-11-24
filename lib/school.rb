@@ -11,9 +11,11 @@ class School
 
   def sort
     sorted_roster = {}
+
     roster.each do |grade, names|
       sorted_roster[grade] = names.sort
     end
+
     return sorted_roster
   end
 
