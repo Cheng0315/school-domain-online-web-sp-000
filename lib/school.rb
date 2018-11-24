@@ -4,11 +4,12 @@ class School
     @name = name
   end
 
-  def roster=(student, grade)
-    if @roster = {}
-      @roster[grade] = []
-      @roster[grade] << student
-    end
+  def grade(grade)
+
+  end
+
+  def sort
+
   end
 
   def roster
